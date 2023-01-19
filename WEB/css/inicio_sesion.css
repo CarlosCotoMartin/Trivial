@@ -1,0 +1,132 @@
+
+.form-login {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.form-login > input {
+    border: none;
+    background: hsl(0, 0%, 93%);
+    border-radius: .5rem;
+    padding: .75rem 1rem;
+    width: 35%;
+    margin: auto;
+}
+
+.form-login > input[placeholder] {
+    text-align: center;
+}
+
+.form-login > input[type="text"] {
+    height: 5%;
+    position: absolute;
+    top: 0;
+    margin-top: 400px;
+    left: 0;
+    margin-left: 33%;
+}
+
+.form-login > input[type="password"] {
+    height: 5%;
+    position: absolute;
+    top: 0;
+    margin-top: 500px;
+    left: 0;
+    margin-left: 33%;
+}
+
+.form-login > input[type="submit"] {
+    background: blueviolet;
+    color: white;
+    height: 7%;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    margin-top: 600px;
+    left: 0;
+    margin-left: 38%;
+}
+
+.decoracion1 {
+    position: absolute;
+    top: 0;
+    margin-top: 300px;
+    left: 0;
+    margin-left: 100px;
+}
+
+.decoracion2 {
+    position: absolute;
+    top: 0;
+    margin-top: 300px;
+    right: 0;
+    margin-right: 100px;
+}
+
+@media screen and (max-width:1200px) {
+    .decoracion1 {
+        position: absolute;
+        top: 0;
+        margin-top: 350px;
+    }
+    
+    .decoracion2 {
+        position: absolute;
+        top: 0;
+        margin-top: 350px;
+        right: 0;
+        margin-right: 1px;
+    }
+
+    #int {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .decoracion1 {
+        position: absolute;
+        top: 0;
+        margin-top: 350px;
+        left: 0;
+        margin-left: 0px;
+    }
+    
+    .decoracion2 {
+        position: absolute;
+        top: 0;
+        margin-top: 350px;
+        right: 0;
+        margin-right: -50px;
+    }
+
+    #int {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .decoracion1 {
+        position: absolute;
+        top: 0;
+        margin-top: 350px;
+        left: 0;
+        margin-left: 0px;
+    }
+    
+    .decoracion2 {
+        position: absolute;
+        top: 0;
+        margin-top: 350px;
+        right: 0;
+        margin-right: -100px;
+    }
+
+    #int {
+        width: 70%;
+    }
+}

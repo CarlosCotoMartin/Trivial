@@ -1,0 +1,47 @@
+.nick {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0,0, 0, 0.75);
+    border: black 5px solid;
+    margin-top: 250px;
+    color: white;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.mail {
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0,0, 0, 0.75);
+    border: black 5px solid;
+    margin-top: 0px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+}
+
+.cerrar {
+    margin: auto;
+    width: 20%;
+    background-color: rgb(255, 0, 0);
+    border: black 5px solid;
+    margin-top: 0px;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+}
+
+.cerrar > a {
+    color: white;
+    text-decoration: none;
+}
+
+.cerrar > a:hover{
+    color: white;
+    text-decoration: underline;
+}

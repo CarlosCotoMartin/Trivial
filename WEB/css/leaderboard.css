@@ -1,0 +1,42 @@
+.container-posiciones {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+}
+
+.container-posiciones > div {
+    width: 100%;
+    background-color: rgba(0,0, 0, 0.75);
+    border: black 5px solid;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.container-posiciones > div:hover {
+    transform: scale(1.05);
+    font-weight: bolder;
+}
+
+.pos {
+    width: 15%;
+}
+
+.us {
+    width: 50%;
+    color: white;
+}
+
+.punt {
+    width: 20%;
+}
+
+.medalla {
+    width: 3%;
+    margin: 10px;
+}
