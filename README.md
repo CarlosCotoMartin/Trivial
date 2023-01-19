@@ -1,4 +1,4 @@
 # Trivial
 
 Trabajo de fin de curso de 1º de Desarrollo de aplicaciones multiplataforma.
-Realizado junto a Ismael Muñoz Masa y Alejandro Arribas Cantero
+Desarrollado con Java 8, MySQL, HTML5, CSS3, PHP3 Y C
