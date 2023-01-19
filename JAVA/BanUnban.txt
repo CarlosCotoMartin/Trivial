@@ -1,0 +1,25 @@
+if (chckBan.isSelected()) {
+        			chckBan.setSelected(false);
+					txtEstado.setText("Activo");
+        			Connection conexion;
+        			try {
+        				conexion = DriverManager.getConnection("jdbc:mysql://localhost/trivial?useSSL=false","root" ,"1234");
+        				Statement comando=conexion.createStatement();
+						comando.executeUpdate("UPDATE `usuarios` SET `baneado` = '1' WHERE `usuarios`.`nick` like'"+txtBuscar.getText()+"';");
+					} catch (SQLException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+				} else {
+					chckBan.setSelected(true);
+					txtEstado.setText("Baneado");
+					Connection conexion;
+        			try {
+        				conexion = DriverManager.getConnection("jdbc:mysql://localhost/trivial?useSSL=false","root" ,"1234");
+        				Statement comando=conexion.createStatement();
+						comando.executeUpdate("UPDATE `usuarios` SET `baneado` = '0' WHERE `usuarios`.`nick` like'"+txtBuscar.getText()+"';");
+					} catch (SQLException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+				}
